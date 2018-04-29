@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2E475782096042900BFFA57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E475772096042900BFFA57 /* AppDelegate.m */; };
+		D2E4757B2096042900BFFA57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E4757A2096042900BFFA57 /* ViewController.m */; };
+		D2E4757E2096042900BFFA57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E4757C2096042900BFFA57 /* Main.storyboard */; };
+		D2E475802096042B00BFFA57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2E4757F2096042B00BFFA57 /* Assets.xcassets */; };
+		D2E475832096042B00BFFA57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E475812096042B00BFFA57 /* LaunchScreen.storyboard */; };
+		D2E475862096042B00BFFA57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E475852096042B00BFFA57 /* main.m */; };
+		D2E475902096042B00BFFA57 /* LQProjectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E4758F2096042B00BFFA57 /* LQProjectorTests.m */; };
+		D2E4759B2096042C00BFFA57 /* LQProjectorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E4759A2096042C00BFFA57 /* LQProjectorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2E4758C2096042B00BFFA57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2E4756B2096042900BFFA57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2E475722096042900BFFA57;
+			remoteInfo = LQProjector;
+		};
+		D2E475972096042C00BFFA57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2E4756B2096042900BFFA57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2E475722096042900BFFA57;
+			remoteInfo = LQProjector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2E475732096042900BFFA57 /* LQProjector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LQProjector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E475762096042900BFFA57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2E475772096042900BFFA57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2E475792096042900BFFA57 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D2E4757A2096042900BFFA57 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D2E4757D2096042900BFFA57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2E4757F2096042B00BFFA57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2E475822096042B00BFFA57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2E475842096042B00BFFA57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2E475852096042B00BFFA57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2E4758B2096042B00BFFA57 /* LQProjectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LQProjectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E4758F2096042B00BFFA57 /* LQProjectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQProjectorTests.m; sourceTree = "<group>"; };
+		D2E475912096042B00BFFA57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2E475962096042C00BFFA57 /* LQProjectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LQProjectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E4759A2096042C00BFFA57 /* LQProjectorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQProjectorUITests.m; sourceTree = "<group>"; };
+		D2E4759C2096042C00BFFA57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2E475702096042900BFFA57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E475882096042B00BFFA57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E475932096042C00BFFA57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2E4756A2096042900BFFA57 = {
+			isa = PBXGroup;
+			children = (
+				D2E475752096042900BFFA57 /* LQProjector */,
+				D2E4758E2096042B00BFFA57 /* LQProjectorTests */,
+				D2E475992096042C00BFFA57 /* LQProjectorUITests */,
+				D2E475742096042900BFFA57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2E475742096042900BFFA57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2E475732096042900BFFA57 /* LQProjector.app */,
+				D2E4758B2096042B00BFFA57 /* LQProjectorTests.xctest */,
+				D2E475962096042C00BFFA57 /* LQProjectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2E475752096042900BFFA57 /* LQProjector */ = {
+			isa = PBXGroup;
+			children = (
+				D2E475762096042900BFFA57 /* AppDelegate.h */,
+				D2E475772096042900BFFA57 /* AppDelegate.m */,
+				D2E475792096042900BFFA57 /* ViewController.h */,
+				D2E4757A2096042900BFFA57 /* ViewController.m */,
+				D2E4757C2096042900BFFA57 /* Main.storyboard */,
+				D2E4757F2096042B00BFFA57 /* Assets.xcassets */,
+				D2E475812096042B00BFFA57 /* LaunchScreen.storyboard */,
+				D2E475842096042B00BFFA57 /* Info.plist */,
+				D2E475852096042B00BFFA57 /* main.m */,
+			);
+			path = LQProjector;
+			sourceTree = "<group>";
+		};
+		D2E4758E2096042B00BFFA57 /* LQProjectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2E4758F2096042B00BFFA57 /* LQProjectorTests.m */,
+				D2E475912096042B00BFFA57 /* Info.plist */,
+			);
+			path = LQProjectorTests;
+			sourceTree = "<group>";
+		};
+		D2E475992096042C00BFFA57 /* LQProjectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2E4759A2096042C00BFFA57 /* LQProjectorUITests.m */,
+				D2E4759C2096042C00BFFA57 /* Info.plist */,
+			);
+			path = LQProjectorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2E475722096042900BFFA57 /* LQProjector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2E4759F2096042C00BFFA57 /* Build configuration list for PBXNativeTarget "LQProjector" */;
+			buildPhases = (
+				D2E4756F2096042900BFFA57 /* Sources */,
+				D2E475702096042900BFFA57 /* Frameworks */,
+				D2E475712096042900BFFA57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LQProjector;
+			productName = LQProjector;
+			productReference = D2E475732096042900BFFA57 /* LQProjector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2E4758A2096042B00BFFA57 /* LQProjectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2E475A22096042C00BFFA57 /* Build configuration list for PBXNativeTarget "LQProjectorTests" */;
+			buildPhases = (
+				D2E475872096042B00BFFA57 /* Sources */,
+				D2E475882096042B00BFFA57 /* Frameworks */,
+				D2E475892096042B00BFFA57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2E4758D2096042B00BFFA57 /* PBXTargetDependency */,
+			);
+			name = LQProjectorTests;
+			productName = LQProjectorTests;
+			productReference = D2E4758B2096042B00BFFA57 /* LQProjectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2E475952096042C00BFFA57 /* LQProjectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2E475A52096042C00BFFA57 /* Build configuration list for PBXNativeTarget "LQProjectorUITests" */;
+			buildPhases = (
+				D2E475922096042C00BFFA57 /* Sources */,
+				D2E475932096042C00BFFA57 /* Frameworks */,
+				D2E475942096042C00BFFA57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2E475982096042C00BFFA57 /* PBXTargetDependency */,
+			);
+			name = LQProjectorUITests;
+			productName = LQProjectorUITests;
+			productReference = D2E475962096042C00BFFA57 /* LQProjectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2E4756B2096042900BFFA57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = LiuQiqiang;
+				TargetAttributes = {
+					D2E475722096042900BFFA57 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					D2E4758A2096042B00BFFA57 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = D2E475722096042900BFFA57;
+					};
+					D2E475952096042C00BFFA57 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = D2E475722096042900BFFA57;
+					};
+				};
+			};
+			buildConfigurationList = D2E4756E2096042900BFFA57 /* Build configuration list for PBXProject "LQProjector" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2E4756A2096042900BFFA57;
+			productRefGroup = D2E475742096042900BFFA57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2E475722096042900BFFA57 /* LQProjector */,
+				D2E4758A2096042B00BFFA57 /* LQProjectorTests */,
+				D2E475952096042C00BFFA57 /* LQProjectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2E475712096042900BFFA57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E475832096042B00BFFA57 /* LaunchScreen.storyboard in Resources */,
+				D2E475802096042B00BFFA57 /* Assets.xcassets in Resources */,
+				D2E4757E2096042900BFFA57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E475892096042B00BFFA57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E475942096042C00BFFA57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2E4756F2096042900BFFA57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E4757B2096042900BFFA57 /* ViewController.m in Sources */,
+				D2E475862096042B00BFFA57 /* main.m in Sources */,
+				D2E475782096042900BFFA57 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E475872096042B00BFFA57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E475902096042B00BFFA57 /* LQProjectorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E475922096042C00BFFA57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E4759B2096042C00BFFA57 /* LQProjectorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2E4758D2096042B00BFFA57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2E475722096042900BFFA57 /* LQProjector */;
+			targetProxy = D2E4758C2096042B00BFFA57 /* PBXContainerItemProxy */;
+		};
+		D2E475982096042C00BFFA57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2E475722096042900BFFA57 /* LQProjector */;
+			targetProxy = D2E475972096042C00BFFA57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2E4757C2096042900BFFA57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2E4757D2096042900BFFA57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2E475812096042B00BFFA57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2E475822096042B00BFFA57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2E4759D2096042C00BFFA57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D2E4759E2096042C00BFFA57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2E475A02096042C00BFFA57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LQProjector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ldshare.LQProjector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2E475A12096042C00BFFA57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LQProjector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ldshare.LQProjector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2E475A32096042C00BFFA57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LQProjectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ldshare.LQProjectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LQProjector.app/LQProjector";
+			};
+			name = Debug;
+		};
+		D2E475A42096042C00BFFA57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LQProjectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ldshare.LQProjectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LQProjector.app/LQProjector";
+			};
+			name = Release;
+		};
+		D2E475A62096042C00BFFA57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LQProjectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ldshare.LQProjectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LQProjector;
+			};
+			name = Debug;
+		};
+		D2E475A72096042C00BFFA57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LQProjectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ldshare.LQProjectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LQProjector;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2E4756E2096042900BFFA57 /* Build configuration list for PBXProject "LQProjector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2E4759D2096042C00BFFA57 /* Debug */,
+				D2E4759E2096042C00BFFA57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2E4759F2096042C00BFFA57 /* Build configuration list for PBXNativeTarget "LQProjector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2E475A02096042C00BFFA57 /* Debug */,
+				D2E475A12096042C00BFFA57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2E475A22096042C00BFFA57 /* Build configuration list for PBXNativeTarget "LQProjectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2E475A32096042C00BFFA57 /* Debug */,
+				D2E475A42096042C00BFFA57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2E475A52096042C00BFFA57 /* Build configuration list for PBXNativeTarget "LQProjectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2E475A62096042C00BFFA57 /* Debug */,
+				D2E475A72096042C00BFFA57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2E4756B2096042900BFFA57 /* Project object */;
+}
